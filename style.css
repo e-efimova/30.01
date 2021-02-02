@@ -1,0 +1,39 @@
+* {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: #2F4F4F;
+}
+
+.container {
+ width: 1200px;
+ margin: 0 auto;
+}
+.grid {
+ display: grid;
+ grid-template-columns: 150px 1fr 150px;
+ grid-template-rows: 100px 1fr 30px;
+ grid-gap: 10px;
+ min-height: 100vh;
+}
+.header {
+ grid-column: 1 / 4;
+ 	background: #B0C4DE;
+ 	padding-top: 30px;
+}
+.footer {
+ 	grid-column: 1 / 4;
+ 	background: #BC8F8F;
+}
+.menu {
+	background: #BDB76B;
+	 padding-top: 30px;
+}
+.main {
+	background: #FFE4B5;
+	padding-top: 30px;
+}
+.aside {
+	background: #FFC0CB;
+	padding-top: 30px;
+}
